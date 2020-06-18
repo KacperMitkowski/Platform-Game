@@ -26,8 +26,8 @@ This is a game made in my free time thanks to coronavirus issues :)
 7. There are 5 maps. If the player finishes all of them, the game starts from the scratch
 
 ## Screenshots:
-![alt text](https://github.com/KacperMitkowski/Platform_Game/blob/master/Screenshots/gif_1.gif)
-![alt text](https://github.com/KacperMitkowski/Platform_Game/blob/master/Screenshots/screenshot_1.PNG)
+![alt text](https://github.com/KacperMitkowski/Platform_Game/blob/master/CodecoolQuest/Screenshots/gif_1.gif)
+![alt text](https://github.com/KacperMitkowski/Platform_Game/blob/master/CodecoolQuest/Screenshots/screenshot_1.PNG)
 
 
 ## Graphics
