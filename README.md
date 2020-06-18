@@ -29,9 +29,8 @@ This is a game made in my free time thanks to coronavirus issues :)
 ![alt text](https://github.com/KacperMitkowski/Platform_Game/blob/master/CodecoolQuest/Screenshots/gif_1.gif)
 ![alt text](https://github.com/KacperMitkowski/Platform_Game/blob/master/CodecoolQuest/Screenshots/screenshot_1.PNG)
 
-
 ## Graphics
 
 The tiles used in the game are from [1-Bit Pack by Kenney](https://kenney.nl/assets/bit-pack), shared on [CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/).
 
-![tiles](src/main/resources/tiles.png)
+
