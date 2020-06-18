@@ -16,6 +16,7 @@ namespace Codecool.Quest
         {
             using var game = new Game();
             game.Run();
+
         }
     }
 }
