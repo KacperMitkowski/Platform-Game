@@ -59,7 +59,7 @@ namespace Codecool.Quest.Models.Actors
                 }
 
                 // normal move
-                if (nextCell.CellType == CellType.Floor && !(nextCell.Item is Door) && !(nextCell.Item is Shoot) && !(nextCell.Actor is NormalMob) && !(nextCell.Actor is LinearMob) && !(nextCell.Actor is ShootingMob))
+                if (nextCell.CellType == CellType.Floor && !(nextCell.Item is Door) && !(nextCell.Item is Bullet) && !(nextCell.Actor is NormalMob) && !(nextCell.Actor is LinearMob) && !(nextCell.Actor is ShootingMob))
                 {
                     Cell.Actor = null;
                     nextCell.Actor = this;
@@ -70,7 +70,7 @@ namespace Codecool.Quest.Models.Actors
 
         private static bool MeetsMobOrShoot(Cell nextCell)
         {
-            return nextCell.Actor is NormalMob || nextCell.Actor is LinearMob || nextCell.Actor is ShootingMob || nextCell.Item is Shoot;
+            return nextCell.Actor is NormalMob || nextCell.Actor is LinearMob || nextCell.Actor is ShootingMob || nextCell.Item is Bullet;
         }
 
         public override void Move()

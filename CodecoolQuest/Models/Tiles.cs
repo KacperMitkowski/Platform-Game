@@ -27,7 +27,7 @@ namespace Codecool.Quest.Models
                 {"normalMob", new Tile(29, 6)},
                 {"linearMob", new Tile(18, 8)},
                 {"shootingMob", new Tile(22, 26)},
-                {"shoot", new Tile(23, 4)},
+                {"bullet", new Tile(23, 4)},
                 {"door", new Tile(0, 9)},
                 {"key", new Tile(16, 23)},
                 {"nextMapExit", new Tile(8, 10)},

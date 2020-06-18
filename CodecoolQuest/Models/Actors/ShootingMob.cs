@@ -10,13 +10,13 @@ namespace Codecool.Quest.Models.Actors
         private int dx { get; set; }
         private int dy { get; set; }
         private Random random = new Random();
-        private Shoot shoot;
+        private Bullet bullet;
         private Cell cell;
         public override string TileName { get; set; } = "shootingMob";
 
         public ShootingMob(Cell cell, int dx, int dy) : base(cell)
         {
-            shoot = new Shoot(cell);
+            bullet = new Bullet(cell);
             this.cell = cell;
             this.dx = dx;
             this.dy = dy;
@@ -24,13 +24,13 @@ namespace Codecool.Quest.Models.Actors
 
         public override void Move()
         {
-            if(shoot.Cell.Item is null)
+            if(bullet.Cell.Item is null)
             {
-                shoot = new Shoot(cell);
+                bullet = new Bullet(cell);
             }
             else
             {
-                shoot.Move(dx, dy);
+                bullet.Move(dx, dy);
             }
         }
     }

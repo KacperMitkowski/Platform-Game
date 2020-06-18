@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Codecool.Quest.Models.Items
 {
-    public class Shoot : Item
+    public class Bullet : Item
     {
-        public override string TileName { get; set; } = "shoot";
+        public override string TileName { get; set; } = "bullet";
 
-        public Shoot(Cell cell) : base(cell)
+        public Bullet(Cell cell) : base(cell)
         {
 
         }
