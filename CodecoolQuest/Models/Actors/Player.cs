@@ -14,7 +14,7 @@ namespace Codecool.Quest.Models.Actors
         {
             var nextCell = Cell.GetNeighbor(dx, dy);
             // if player meets mob or shoot
-            if (MeetsMobOrShoot(nextCell))
+            if (MeetsMobOrArrow(nextCell))
             {
                 Game.MoveInterval = 10000;
             }
@@ -68,7 +68,7 @@ namespace Codecool.Quest.Models.Actors
             }
         }
 
-        private static bool MeetsMobOrShoot(Cell nextCell)
+        private static bool MeetsMobOrArrow(Cell nextCell)
         {
             return nextCell.Actor is NormalMob || nextCell.Actor is LinearMob || nextCell.Actor is ShootingMob || nextCell.Item is Bullet;
         }
