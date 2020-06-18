@@ -11,11 +11,11 @@ This is a game made in my free time. The maps come from txt files included in th
 - create a game loop with the option exit and restart game
 - use Monogame as a GUI
 
-## Used technology:
+## Used technologies:
 - C#
 - Monogame
 
-## Rules
+## Rules:
 
 1. Player moves the character by pressing arrows (ESC is exit from game)
 2. There are several types of mobs: moving randomly, moving linearly, shooting
