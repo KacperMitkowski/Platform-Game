@@ -11,7 +11,7 @@ This is a game made in my free time. The maps come from txt files included in th
 - create a game loop with the option exit and restart game
 - use Monogame as a GUI
 
-## Used technology:
+## Used technologies:
 - C#
 - Monogame
 
