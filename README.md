@@ -4,7 +4,7 @@ This is a simple tile-based platform game in C# and MonoGame
 
 ## About the project
 
-This is a game made in my free time thanks to coronavirus issues :)
+This is a game made in my free time. The maps come from txt files included in the project. The project is easy to extend by adding new functionalities such as: new types of mobs, shooting player etc. 
 
 **The goal was to:**
 - practice OOP concept in C#
