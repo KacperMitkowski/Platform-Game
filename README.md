@@ -1,27 +1,32 @@
-# Codecool Quest
+# Platform Game in C#
 
-This is a simple tile-based RPG game.
+This is a simple tile-based platform game in C# and MonoGame
 
-## Installing MonoGame
+## About the project
 
-MonoGame is a framework for simple C# games. Before opening the project, you have to install the newest version of MonoGame. You can find it here:
-http://community.monogame.net/t/monogame-3-7-1-release/11173
+This is a game made in my free time thanks to coronavirus issues :)
 
-### In case of exception during build (happens on Mac OS or Linux)
- - Mac OS - use the solution found [here](https://stackoverflow.com/questions/42137792/monogame-pipeline-error-on-mac-system-dllnotfoundexception-libfreeimage-dylib/44452910#44452910) (run **brew install freeimage** in terminal)
- - Ubuntu - similar to above - install missing Freeimage library via **sudo apt-get install libfreeimage3 libfreeimageplus3** in terminal
+**The goal was to:**
+- practice OOP concept in C#
+- create a game loop with the option exit and restart game
+- use Monogame as a GUI
 
-## Opening the project
+## Used technology:
+- C#
+- Monogame
 
-Open the project in Visual Studio. You can also run it under Mac OS using Visual Studio for Mac or under Mac OS/Ubuntu using JetBrains Rider. This is a .NET Core project.
+## Rules
 
-## Architecture
+1. Player moves the character by pressing arrows (ESC is exit from game)
+2. There are several types of mobs: moving randomly, moving linearly, shooting
+3. Player cannot touch any mob or arrow shot by mob. If player touches any of them - the game stops and it must be started from the scratch
+4. Sometimes it's necessary to take the key to open the door
+5. Player tries to go to the next map by touching the door
+6. Player also can come back to the previous map by touching door near the player at the beginning of the map
+7. There are 5 maps. If the player finishes all of them, the game starts from the scratch
 
-The project is meant to teach the concept of **layer separation**. All of the game logic (that is, player movement, game rules, and so on), is in the `logic` package, completely independent of user interface code. In principle, you could implement a completely different interface (terminal, web, Virtual Reality...) for the same logic code.
+## Screenshots:
 
-## Product Backlog
-
-[Codecool Quest Product Backlog](https://docs.google.com/spreadsheets/d/1CvVh2s6obWEh4eQxu8w4f3jBLhz208bG-1FybWGc1sA/edit#gid=0)
 
 ## Graphics
 
